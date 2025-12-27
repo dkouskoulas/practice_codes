@@ -1,3 +1,6 @@
+# Merge Two Sorted Singly Linked Lists
+# Time Complexity: O(n + m) - single pass through both lists
+# Space Complexity: O(1) - only relinks existing nodes
 
 
 
@@ -10,7 +13,7 @@ def merge_two_lists(l1,l2):
             tail.next = l1
             l1 = l1.next
         else:
-            tail.next= l2
+            tail.next = l2
             l2 = l2.next
         tail = tail.next
 
