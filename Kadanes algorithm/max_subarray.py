@@ -1,8 +1,12 @@
 
 
 
-def max_subarray_sum(nums):
+# Kadane's Algorithm - Maximum Subarray Sum
+# Time Complexity: O(n) - single pass through array
+# Space Complexity: O(1) - only uses constant extra space
 
+def max_subarray_sum(nums):
+    
     max_global = max_local = float('-inf')
 
     for num in nums:

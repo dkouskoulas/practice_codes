@@ -1,3 +1,6 @@
+# Merge Sort
+# Time Complexity: O(n log n) - always splits in half and merges
+# Space Complexity: O(n) - creates new arrays during merge
 
 
 def mergesort(arr):

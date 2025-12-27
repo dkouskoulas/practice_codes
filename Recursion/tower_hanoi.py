@@ -1,3 +1,6 @@
+# Recursion - Tower of Hanoi
+# Time Complexity: O(2^n) - 2^n - 1 moves required
+# Space Complexity: O(n) - call stack depth
 
 
 def tower_of_hanoi(n, source, destination, auxiliary):

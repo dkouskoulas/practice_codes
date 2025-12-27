@@ -1,3 +1,7 @@
+# Simple Moving Average with Future Forecast
+# Time Complexity: O(n * k) where n = array length, k = window size
+# Space Complexity: O(n) - stores forecast arrays
+
 def SMA(arr,k):
     n = len(arr)
 

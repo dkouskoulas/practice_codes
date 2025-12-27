@@ -1,3 +1,6 @@
+# Simple Moving Average (SMA)
+# Time Complexity: O(n * k) where n = array length, k = window size
+# Space Complexity: O(n) - stores smoothed series
 
 
 def rolling_sma_forecast(arr, k):

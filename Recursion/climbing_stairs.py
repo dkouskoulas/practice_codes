@@ -1,3 +1,6 @@
+# Recursion - Climbing Stairs (Naive Fibonacci)
+# Time Complexity: O(2^n) - exponential due to repeated calculations
+# Space Complexity: O(n) - call stack depth
 
 
 

@@ -1,3 +1,7 @@
+# Heap - K Closest Points to Origin
+# Time Complexity: O(n log n) - heappush for each point
+# Space Complexity: O(n) - heap stores all points
+
 from heapq import heappush, heappop
 
 def closest(points, k):

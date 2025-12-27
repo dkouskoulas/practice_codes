@@ -1,3 +1,6 @@
+# Two Pointers (Fast/Slow) - Remove Element In-Place
+# Time Complexity: O(n) - single pass through array
+# Space Complexity: O(1) - modifies array in-place
 
 
 # given array nums and val, remove all occurences of val in place,

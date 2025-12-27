@@ -1,3 +1,6 @@
+# Floyd's Cycle Detection - Find Cycle Length
+# Time Complexity: O(n) - traverses cycle once detected
+# Space Complexity: O(1) - only uses two pointers
 
 
 def detect_cycle_lenght(head):

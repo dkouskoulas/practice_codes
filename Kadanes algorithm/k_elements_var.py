@@ -1,3 +1,6 @@
+# Sliding Window - Maximum Sum of K Elements
+# Time Complexity: O(n) - single pass through array
+# Space Complexity: O(1) - only uses constant extra space
 
 def max_sum_k_elements(arr, k):
     n = len(arr)

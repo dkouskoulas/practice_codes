@@ -1,3 +1,7 @@
+# Binary Search on Sorted Array
+# Time Complexity: O(log n) - halves search space each iteration
+# Space Complexity: O(1) - only uses constant extra space
+
 import numpy as np
 
 

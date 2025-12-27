@@ -1,3 +1,6 @@
+# Recursion - Greatest Common Divisor (Euclidean Algorithm)
+# Time Complexity: O(log min(a, b)) - reduces problem size logarithmically
+# Space Complexity: O(log min(a, b)) - call stack depth
 
 
 def gcd(a,b):

@@ -1,3 +1,6 @@
+# Kadane's Algorithm Variant - Minimum Subarray Sum
+# Time Complexity: O(n) - single pass through array
+# Space Complexity: O(n) - creates inverted array
 
 def min_subarray(arr):
 

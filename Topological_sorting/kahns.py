@@ -1,3 +1,7 @@
+# Kahn's Algorithm - Topological Sorting
+# Time Complexity: O(V + E) where V = vertices, E = edges
+# Space Complexity: O(V + E) - adjacency list and indegree array
+
 #topological sorting for a directed acyclical graph
 
 from collections import deque

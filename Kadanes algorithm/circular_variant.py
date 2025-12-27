@@ -1,3 +1,7 @@
+# Kadane's Algorithm - Maximum Subarray Sum (Circular Array)
+# Time Complexity: O(n) - two passes through array
+# Space Complexity: O(n) - creates inverted array in min_subarray
+
 def max_subarray(nums):
 
     max_global = max_local = nums[0]

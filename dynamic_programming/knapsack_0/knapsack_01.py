@@ -1,3 +1,6 @@
+# Dynamic Programming - 0/1 Knapsack
+# Time Complexity: O(n * capacity) where n = number of items
+# Space Complexity: O(n * capacity) - 2D DP table
 
 # given a knapsack with capcity
 # weights of each item, values for each item

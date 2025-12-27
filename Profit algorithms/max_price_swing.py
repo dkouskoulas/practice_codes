@@ -1,3 +1,6 @@
+# Greedy - Maximum Price Swing
+# Time Complexity: O(n) - single pass through prices
+# Space Complexity: O(1) - only uses constant extra space
 
 
 def max_price_swing(prices):

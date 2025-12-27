@@ -1,6 +1,13 @@
 
 # arr.sort()
 
+# Quicksort Algorithm
+# Time Complexity: 
+#   - Best/Average: O(n log n)
+#   - Worst: O(n²) when pivot is always smallest/largest (unbalanced partitions)
+# Space Complexity: O(n) due to list comprehensions (not in-place)
+# Note: This implementation uses extra space for clarity; in-place quicksort is O(log n) space
+
 def quicksort(arr):
 
     if len(arr) <= 1:

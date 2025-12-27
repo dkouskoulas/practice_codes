@@ -1,3 +1,6 @@
+# Recursion - Generate All Permutations
+# Time Complexity: O(n! * n) - n! permutations, each takes O(n) to build
+# Space Complexity: O(n! * n) - stores all permutations
 
 
 def permutations(arr):

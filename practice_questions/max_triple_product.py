@@ -1,3 +1,6 @@
+# Heap - Maximum Product of Three Numbers
+# Time Complexity: O(n) - heapq.nlargest/nsmallest are O(n) for small k
+# Space Complexity: O(1) - only stores constant number of elements
 
 import heapq 
 

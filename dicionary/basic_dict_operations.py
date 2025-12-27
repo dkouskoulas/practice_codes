@@ -1,3 +1,6 @@
+# Dictionary Operations - Common Patterns and Operations
+# Various time complexities depending on operation (see individual operations below)
+
 from collections import defaultdict, Counter
 
 # Sample dictionary

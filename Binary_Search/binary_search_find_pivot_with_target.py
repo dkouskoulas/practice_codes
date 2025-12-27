@@ -1,3 +1,7 @@
+# Search in Rotated Sorted Array
+# Time Complexity: O(log n) - find pivot O(log n) + binary search O(log n)
+# Space Complexity: O(1) - only uses constant extra space
+
 def find_pivot(nums):
 
     left, right = 0, len(nums) - 1

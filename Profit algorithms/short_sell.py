@@ -1,3 +1,6 @@
+# Greedy - Short Selling (Sell High, Buy Low)
+# Time Complexity: O(n) - single pass through prices
+# Space Complexity: O(1) - only uses constant extra space
 
 #for short selling, you need to track the maximum 
 # you sell high and buy low 

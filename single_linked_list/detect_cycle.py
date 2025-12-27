@@ -1,3 +1,6 @@
+# Floyd's Cycle Detection (Tortoise and Hare)
+# Time Complexity: O(n) - traverses list at most twice
+# Space Complexity: O(1) - only uses two pointers
 
 #this detects cycle and returns the start point 
 
@@ -15,11 +18,10 @@ def detect_cycle(head):
     else:
         return None
     
-    slow = head
+    slow = head 
 
     while slow != fast:
         slow = slow.next
         fast = fast.next
-
+    
     return slow 
-

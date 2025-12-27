@@ -1,3 +1,6 @@
+# Heap - Maximum Product of K Elements
+# Time Complexity: O(n log k) - heapq.nlargest/nsmallest
+# Space Complexity: O(k) - stores k largest and k smallest
 
 
 import heapq 

@@ -1,3 +1,6 @@
+# Greedy - Best Time to Buy and Sell Stock
+# Time Complexity: O(n) - single pass through prices
+# Space Complexity: O(1) - only uses constant extra space
 
 
 

@@ -1,3 +1,6 @@
+# Greedy - Maximum Profit (Buy Low, Sell High)
+# Time Complexity: O(n) - single pass through prices
+# Space Complexity: O(1) - only uses constant extra space
 
 
 def max_profit(prices):

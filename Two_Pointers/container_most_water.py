@@ -1,3 +1,6 @@
+# Two Pointers - Container With Most Water
+# Time Complexity: O(n) - single pass with two pointers
+# Space Complexity: O(1) - only uses constant extra space
 
 
 

@@ -1,6 +1,10 @@
 
 
 
+# Sliding Window - Longest Substring with K Unique Characters
+# Time Complexity: O(n) - each character visited at most twice (right pointer and left pointer)
+# Space Complexity: O(k) - hash map stores at most k unique characters
+
 def longest_substring_k_unique(s, k):
 
     if k == 0 or not s:

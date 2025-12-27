@@ -1,3 +1,6 @@
+# Greedy Algorithm - Maximum Non-Overlapping Intervals
+# Time Complexity: O(n log n) - dominated by sorting
+# Space Complexity: O(1) - only uses constant extra space
 
 # Given a list of intervals, where each interval has a start time and an end time, 
 # choose the maximum number of non-overlapping intervals.

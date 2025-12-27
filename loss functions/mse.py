@@ -1,3 +1,6 @@
+# Mean Squared Error Calculation
+# Time Complexity: O(n) - single pass through arrays
+# Space Complexity: O(n) - list comprehension creates intermediate list
 
 
 def mse_calc(x,y):

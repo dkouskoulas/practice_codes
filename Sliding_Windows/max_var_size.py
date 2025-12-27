@@ -1,3 +1,6 @@
+# Sliding Window (Variable Size) - Longest Subarray with Sum K
+# Time Complexity: O(n) - each element visited at most twice
+# Space Complexity: O(1) - only uses constant extra space
 
 
 #assume all positive values 

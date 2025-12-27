@@ -1,3 +1,6 @@
+# 2D Prefix Sum - Rectangle Sum Query
+# Time Complexity: O(rows * cols) for build, O(1) for query
+# Space Complexity: O(rows * cols) - prefix sum matrix
 
 
 def build_2d_prefix(matrix):

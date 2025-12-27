@@ -1,4 +1,6 @@
-
+# Greedy Algorithm - Activity Selection
+# Time Complexity: O(n log n) - dominated by sorting
+# Space Complexity: O(n) - stores selected activities
 
 # given n activities, each activity has a start and end time 
 # can only do one activity at a time
@@ -7,18 +9,19 @@
 
 
 def activities_sort(activities_list):
+    
+    activities_list.sort(key = lambda x: x[1])
 
-    activities_list.sort(key = lambda x:  x[1])
-
-    count = 0
     last_finish = float('-inf')
+    count = 0
     activities = []
 
     for start, finish in activities_list:
         if start >= last_finish:
-            count += 1
             activities.append([start,finish])
+            count+=1
             last_finish = finish
+
 
     return count, activities
 

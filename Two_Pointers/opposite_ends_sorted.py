@@ -1,3 +1,6 @@
+# Two Pointers - Two Sum (Sorted Array)
+# Time Complexity: O(n) - single pass with two pointers
+# Space Complexity: O(1) - only uses constant extra space
 
 # given a sorted array nums and an integer target, return any pair [i,j] such that nums[i]+nums[j] == target, 
 # or None if no pair exists

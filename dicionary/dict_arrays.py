@@ -1,3 +1,6 @@
+# Dictionary with Arrays - Store and Sum Arrays
+# Time Complexity: O(n * m) where n = number of arrays, m = average array length
+# Space Complexity: O(n) - stores dictionary with n entries
 
 from collections import defaultdict
 

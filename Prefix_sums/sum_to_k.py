@@ -1,3 +1,6 @@
+# Prefix Sum - Find Subarray with Sum Equal to K
+# Time Complexity: O(n) - single pass through array
+# Space Complexity: O(n) - hash map stores prefix sums
 
 
 def subarray_sum(arr,k):
