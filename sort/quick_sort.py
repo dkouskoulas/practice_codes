@@ -10,7 +10,7 @@
 
 def quicksort(arr):
 
-    if len(arr) <= 1:
+    if len(arr) < 2:
         return arr
     
     pivot = arr[len(arr)//2]

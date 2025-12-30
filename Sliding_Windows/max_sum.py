@@ -9,12 +9,12 @@ def max_sum(arr, k):
         raise ValueError("k must be positive and less than len(arr)")
     
     window_sum = sum(arr[:k])
-    global_max = window_sum
+    max_global = window_sum
 
     for i in range(k,len(arr)):
         window_sum += arr[i]
         window_sum -= arr[i-k]
-        global_max = max(window_sum, global_max)
+        max_global = max(max_global, window_sum)
 
-    return global_max
 
+    return max_global

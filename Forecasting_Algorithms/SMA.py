@@ -7,13 +7,13 @@ def rolling_sma_forecast(arr, k):
     if len(arr)<k:
         raise ValueError('length mismatch')
     
-    smoothed_series = []
+    smoothed = []
 
     for i in range(k,len(arr)):
-        window = arr[i-k:i]
-        smoothed_series.append(sum(window)/k)
+        window_sum = sum(arr[i-k:i])/k
+        smoothed.append(window_sum)
 
-    return smoothed_series, arr[-k:] 
+    return smoothed
 
 
 if __name__ == "__main__":
