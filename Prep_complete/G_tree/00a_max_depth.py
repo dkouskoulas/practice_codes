@@ -1,0 +1,18 @@
+"""
+Given the root of a binary tree, return its maximum depth.
+
+"""
+
+
+class Node:
+
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+def max_depth(root):
+    if not root:
+        return 0
+    
+    return 1 + max(max_depth(root.left), max_depth(root.right))
